@@ -1,4 +1,4 @@
-name: Test GITHUB_OUTPUT
+name: Test GITHUB_OUTPUT Ubuntu
 
 on:
   push:
