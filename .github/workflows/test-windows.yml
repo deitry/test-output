@@ -13,6 +13,7 @@ jobs:
 
     steps:
       - id: step1
-        run: echo "test=Hello world" >> $GITHUB_OUTPUT
+        run: |
+          "test=Hello world" >> $env:GITHUB_OUTPUT
 
       - run: echo "${{ steps.step1.outputs.test }}"
